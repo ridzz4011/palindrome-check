@@ -1,0 +1,44 @@
+[
+{
+  "directory": "F:/Tugas/strukturData/cpp/TugasPraktikum3/build",
+  "command": "G:\\Aplikasi\\MSYS2\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\Palindrome.dir\\main.cpp.obj -c F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\main.cpp",
+  "file": "F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\main.cpp",
+  "output": "CMakeFiles\\Palindrome.dir\\main.cpp.obj"
+},
+{
+  "directory": "F:/Tugas/strukturData/cpp/TugasPraktikum3/build",
+  "command": "G:\\Aplikasi\\MSYS2\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\Palindrome.dir\\src\\functionMisc\\clearscreen\\clearscreen.cpp.obj -c F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionMisc\\clearscreen\\clearscreen.cpp",
+  "file": "F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionMisc\\clearscreen\\clearscreen.cpp",
+  "output": "CMakeFiles\\Palindrome.dir\\src\\functionMisc\\clearscreen\\clearscreen.cpp.obj"
+},
+{
+  "directory": "F:/Tugas/strukturData/cpp/TugasPraktikum3/build",
+  "command": "G:\\Aplikasi\\MSYS2\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\Palindrome.dir\\src\\functionMisc\\loading\\loading.cpp.obj -c F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionMisc\\loading\\loading.cpp",
+  "file": "F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionMisc\\loading\\loading.cpp",
+  "output": "CMakeFiles\\Palindrome.dir\\src\\functionMisc\\loading\\loading.cpp.obj"
+},
+{
+  "directory": "F:/Tugas/strukturData/cpp/TugasPraktikum3/build",
+  "command": "G:\\Aplikasi\\MSYS2\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\Palindrome.dir\\src\\functionMisc\\pauseconsole\\pauseconsole.cpp.obj -c F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionMisc\\pauseconsole\\pauseconsole.cpp",
+  "file": "F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionMisc\\pauseconsole\\pauseconsole.cpp",
+  "output": "CMakeFiles\\Palindrome.dir\\src\\functionMisc\\pauseconsole\\pauseconsole.cpp.obj"
+},
+{
+  "directory": "F:/Tugas/strukturData/cpp/TugasPraktikum3/build",
+  "command": "G:\\Aplikasi\\MSYS2\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\Palindrome.dir\\src\\functionMisc\\intro\\intro.cpp.obj -c F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionMisc\\intro\\intro.cpp",
+  "file": "F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionMisc\\intro\\intro.cpp",
+  "output": "CMakeFiles\\Palindrome.dir\\src\\functionMisc\\intro\\intro.cpp.obj"
+},
+{
+  "directory": "F:/Tugas/strukturData/cpp/TugasPraktikum3/build",
+  "command": "G:\\Aplikasi\\MSYS2\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\Palindrome.dir\\src\\functionTugas\\functionQueue\\queueLL.cpp.obj -c F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionTugas\\functionQueue\\queueLL.cpp",
+  "file": "F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionTugas\\functionQueue\\queueLL.cpp",
+  "output": "CMakeFiles\\Palindrome.dir\\src\\functionTugas\\functionQueue\\queueLL.cpp.obj"
+},
+{
+  "directory": "F:/Tugas/strukturData/cpp/TugasPraktikum3/build",
+  "command": "G:\\Aplikasi\\MSYS2\\ucrt64\\bin\\g++.exe -g -o CMakeFiles\\Palindrome.dir\\src\\functionTugas\\palindromeLL\\cekPalindromeLL.cpp.obj -c F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionTugas\\palindromeLL\\cekPalindromeLL.cpp",
+  "file": "F:\\Tugas\\strukturData\\cpp\\TugasPraktikum3\\src\\functionTugas\\palindromeLL\\cekPalindromeLL.cpp",
+  "output": "CMakeFiles\\Palindrome.dir\\src\\functionTugas\\palindromeLL\\cekPalindromeLL.cpp.obj"
+}
+]
