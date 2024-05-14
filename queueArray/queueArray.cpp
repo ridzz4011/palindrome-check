@@ -29,7 +29,7 @@ struct Queue {
     // Function untuk menambahkan elemen ke belakang queue
     void enqueue(char k) {
         if (isFull()) {
-            cout << "Queue is full" << endl;
+            cout << "Antrian sudah penuh" << endl;
             return;
         }
         arr[++rear] = k;
@@ -38,7 +38,7 @@ struct Queue {
     // Function untuk menghapus elemen dari depan queue
     char dequeue() {
         if (isEmpty()) {
-            cout << "Queue is empty" << endl;
+            cout << "Antrian masih kosong" << endl;
             return '\0';
         }
         return arr[front++];
@@ -69,21 +69,24 @@ bool isPalindrome(char str[], int length) {
 // Function main untuk menguji program
 int main() {
     int length;
-    cout << "Masukkan jumlah huruf dalam kata: ";
+    cout << "Masukkan jumlah data dalam kata: ";
     cin >> length;
     cin.ignore(); // Membersihkan newline character dari buffer
 
-    char str[length];
-    cout << "Masukkan huruf satu persatu:" << endl;
+    char str[MAX_SIZE];
+    cout << "Masukkan data satu persatu:" << endl;
+    Queue q(length); // Membuat queue dengan ukuran sesuai jumlah huruf
     for (int i = 0; i < length; i++) {
-        cout << "Huruf ke-" << i + 1 << ": ";
+        cout << "Data ke-" << i + 1 << ": ";
         cin >> str[i];
+        q.enqueue(str[i]);
+        cout << "Data berhasil ditambahkan" << endl; // Menampilkan pesan setelah setiap input
     }
 
     if (isPalindrome(str, length))
-        cout << "Palindrom" << endl;
+        cout << "\nmerupakan Palindrom" << endl;
     else
-        cout << "Bukan Palindrom" << endl;
+        cout << "\nBukan merupakan Palindrom" << endl;
 
     return 0;
 }
