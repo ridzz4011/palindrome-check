@@ -12,11 +12,6 @@ struct Queue {
         capacity = size;
     }
 
-    // Function untuk mengecek apakah queue penuh
-    bool isFull();
-    // Function untuk mengecek apakah queue kosong
-    bool isEmpty();
-
     // Function untuk menambahkan elemen ke belakang queue
     void enqueue(char k);
 

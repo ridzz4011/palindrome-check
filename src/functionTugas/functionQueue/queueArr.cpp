@@ -1,16 +1,8 @@
 #include <iostream>
 #include "../../../include/queueArr.hpp"
 
-bool Queue::isFull() {
-    return (rear - front + 1 == capacity);
-}
-
-bool Queue::isEmpty() {
-    return (front > rear);
-}
-
 void Queue::enqueue(char k) {
-    if (isFull) {
+    if (rear - front + 1 == capacity) {
        std::cout << "Antrian sudah penuh\n" ;
        return;
     }
@@ -18,7 +10,7 @@ void Queue::enqueue(char k) {
 }
 
 char Queue::dequeue() {
-    if (isEmpty) {
+    if (front > rear) {
        std::cout << "Antrian masih kosong\n" ;
        return '\0';
     }
