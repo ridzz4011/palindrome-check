@@ -6,7 +6,9 @@
 #include "include/loading.hpp"
 #include "include/pauseconsole.hpp"
 #include "include/intro.hpp"
+
 #include "include/queueLL.hpp"
+#include "include/queueArr.hpp"
 
 void deco() {
     for (int i = 0; i < 85; i++) {
@@ -82,7 +84,39 @@ int main(int, char**){
             break;
         case 2:
         {
-            cout << "Nanti belum dibuat programnya :)" << endl;
+            PauseConsole();
+            ClearScreen();
+
+            string kata;
+            int length;
+            
+            deco();
+            cout << "\n\n";
+
+            cout << "Masukan jumlah data dalam kata: ";
+            cin >> length;
+            cin.ignore();
+
+            cout << "\n";
+
+            char str[20];
+            cout << "Masukan Data satu persatu:\n";
+            Queue qA(length);
+            for(int i = 0; i < length; i++) {
+                cout << "Data ke-" << i + 1 << " : ";
+                cin >> str[i];
+                qA.enqueue(str[i]);
+                cout << "Data berhasil ditambahkan!\n";
+            }
+
+            deco2();
+            cout << "\n\n";
+
+            if (cekPalindromeArr(str, length)) {
+                cout << "Kata tersebut termasuk kata palindrome!\n"; 
+            } else {
+                cout << "Kata tersebut bukan termasuk kata palindrome!\n";
+            }
         }
             PauseConsole();
             ClearScreen();

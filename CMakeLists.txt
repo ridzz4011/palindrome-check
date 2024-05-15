@@ -12,7 +12,9 @@ add_executable(Palindrome main.cpp
                src/functionMisc/intro/intro.cpp
                
                src/functionTugas/functionQueue/queueLL.cpp
-               src/functionTugas/palindromeLL/cekPalindromeLL.cpp)
+               src/functionTugas/functionQueue/queueArr.cpp
+               src/functionTugas/palindromeLL/cekPalindromeLL.cpp
+               src/functionTugas/palindromeLL/cekPalindromeArr.cpp)
 
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
